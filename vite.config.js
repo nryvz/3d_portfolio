@@ -7,7 +7,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [tailwindcss()],
-      base: "/nryvz",
+      base: "/3d_portfolio/",
     },
   },
 });
