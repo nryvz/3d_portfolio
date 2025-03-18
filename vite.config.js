@@ -4,10 +4,10 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/3d_portfolio/",
   css: {
     postcss: {
       plugins: [tailwindcss()],
-      base: "/3d_portfolio/",
     },
   },
 });
