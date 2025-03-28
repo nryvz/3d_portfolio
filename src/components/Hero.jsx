@@ -14,7 +14,7 @@ const Hero = () => {
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 text-center`}
           >
-            I Frontend Developer who builds efficient, scalable, and
+            A Frontend Developer who builds efficient, scalable, and
             maintainable web applications using modern technologies.
           </p>
         </div>

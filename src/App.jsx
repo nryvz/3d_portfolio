@@ -1,4 +1,6 @@
 import { BrowserRouter } from "react-router";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import {
   About,
   Contact,
@@ -11,9 +13,10 @@ import {
 
 const App = () => {
   return (
-    <BrowserRouter basename="/3d_portfolio">
+    <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bd-cover bg-no-repeat bg-center">
+          <ToastContainer />
           <Navbar />
           <Hero />
         </div>

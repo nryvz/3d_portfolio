@@ -37,11 +37,11 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Owerview</h2>
+        <h2 className={styles.sectionHeadText}>About Me</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]"
       >
         As a frontend developer, I have a strong interest in modern web
         technologies and continuously work on improving my skills. I am
@@ -52,7 +52,7 @@ const About = () => {
         integrating a CMS to add a blog section. In addition to coding, I also
         prioritize performance optimization, responsive design, and SEO.
       </motion.p>
-      <div className="mt-20 flex items-center align-center w-3xl flex-wrap gap-20">
+      <div className="mt-20 flex items-center justify-between flex-wrap ">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
